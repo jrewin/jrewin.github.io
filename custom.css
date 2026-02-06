@@ -1,0 +1,15 @@
+/* 圆形英雄区头图 */
+.VPHero .image img {
+  border-radius: 50% !important;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+/* docs/public/custom.css */
+:root {
+  --vp-font-family-base:
+    "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Segoe UI", Helvetica,
+    Arial, sans-serif;
+  --vp-font-family-mono: Consolas, "Courier New", monospace;
+}
